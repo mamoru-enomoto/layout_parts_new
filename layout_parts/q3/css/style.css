@@ -1,15 +1,16 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.content {
   width: 100%;
   text-align: center;
+  border: solid #dedede 1px;
 }
 th {
   background-color: #2244aa;
   color: #ffffff;
-  border: solid #dedede 1px;
   font-size: 18px;
+  line-height: 26px;
   padding: 10px;
 }
 td {
@@ -28,6 +29,9 @@ table tr td:nth-of-type(1){
 }
 .block:nth-child(n+1) {
   background-color: #ecf1f2;
+}
+.content th {
+  border: 1px solid #dedede;
 }
 
 

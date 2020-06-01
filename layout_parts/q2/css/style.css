@@ -12,10 +12,12 @@
   padding: 20px;
   box-sizing: border-box;
   background-color: #eff3f4;
+  word-break: break-all;
 }
 .q2__content__box {
   font-size: 18px;
   line-height: 22px;
   float: left;
+  word-break: break-all;
 }
 /* 回答はここに書いてね */
