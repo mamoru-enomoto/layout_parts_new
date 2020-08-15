@@ -14,10 +14,20 @@
   background-color: #eff3f4;
   word-break: break-all;
 }
+.balloon {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px
+}
 .q2__content__box {
   font-size: 18px;
   line-height: 22px;
   float: left;
   word-break: break-all;
+}
+.crest {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 /* 回答はここに書いてね */
