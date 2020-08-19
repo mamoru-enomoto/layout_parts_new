@@ -10,18 +10,6 @@
   background-color: #e6f2ff;
   padding: 10px 0;
 }
-.text-block {
-  text-align: center;
-}
-.block-2 {
-  width: 90px;
-  display: inline-block;
-  background-color: #e6f2ff;
-  padding: 10px 0;
-}
-.q6--around {
-  display: table;
-}
 .main {
   display: table-cell;
   text-align: center;
@@ -36,11 +24,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.card-2 {
-  display: inline-block;
-  background-color: #fff;
-  padding: 10px;
 }
 .q6__box.is-stable {
   position: relative;
