@@ -10,6 +10,9 @@
   background-color: #e6f2ff;
   padding: 10px 0;
 }
+.table {
+  display: table;
+}
 .main {
   display: table-cell;
   text-align: center;
@@ -20,7 +23,7 @@
   background-color: #fff;
   padding: 10px;
 }
-.q6--around {
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
