@@ -6,7 +6,7 @@
   display: block;
   clear: both;
 }
-.q7__box {
+.q7__box__block {
   float: left;
   width: 225px;
   font-size: 16px;
@@ -16,18 +16,5 @@
 .q7__box:first-child {
   margin-left: 0;
 }
-.q7__box__inner {
-  display: table;
-}
-.q7__box {
-  display: table-cell;
-  width: 225px;
-  padding-left: 50px;
-}
-.q7__box:first-child {
-  padding-left: 0;
-}
-.q7__box__text {
-  font-size: 16px;
-}
+
 /* 回答はここに書いてね */
