@@ -2,8 +2,8 @@
 
 /* 回答はここに書いてね */
 .clearfix::after {
-  content: "";
   display: block;
+  content: "";
   clear: both;
 }
 .text {
@@ -13,7 +13,7 @@
  margin-left: 50px;
  box-sizing: border-box;
 }
-.q7__box:first-child {
+.text:first-child {
   margin-left: 0;
 }
 .card {
@@ -28,7 +28,51 @@
 .cell {
   font-size: 16px;
 }
-.q7__box:first-child {
+.block:first-child {
   padding-left: 0;
+}
+.main {
+  font-size: 0;
+}
+.item {
+  display: inline-block;
+  width: 225px;
+  margin-left: 50px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.item:first-child {
+  margin-left: 0;
+}
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.grid {
+  width: 225px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.hero {
+  font-size: 0;
+}
+.module {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+.module--box {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+.article {
+  font-size: 16px;
 }
 /* 回答はここに書いてね */
