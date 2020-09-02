@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.q8__car {
+  position: relative;
+  margin:  0 auto;
+  width: 500px;
+  height: 333px;
+}
+.trans:hover {
+  transition: all 0.5s;
+  transform: scale(1.5);
+}
 /* 回答はここに書いてね */
