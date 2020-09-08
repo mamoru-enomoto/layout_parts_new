@@ -6,9 +6,26 @@
   margin:  0 auto;
   width: 500px;
   height: 333px;
+  overflow: hidden;
+}
+.trans {
+  transition: all 0.5s;
 }
 .trans:hover {
-  transition: all 0.5s;
   transform: scale(1.5);
+  transition: all 0.5s;
+}
+.block {
+  position: absolute;
+  transition: all 0.5s;
+}
+.block__text {
+  position: absolute;
+  left: 0;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 20px;
+  transition: all 0.5s;
 }
 /* 回答はここに書いてね */
