@@ -12,9 +12,9 @@
   transform: scale(1.5);
   transition: all 0.5s;
 }
-.q8__trans__block:hover {
+.q8__trans__block {
   position: absolute;
-  bottom: 0;
+  bottom: -100%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -27,6 +27,8 @@
   width: 100%;
   padding: 20px;
   color: #ffffff;
+  font-size: 16px;
+  line-height: 16px;
   box-sizing: border-box;
   word-break: break-all;
 }
