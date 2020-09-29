@@ -8,11 +8,11 @@
   height: 333px;
   overflow: hidden;
 }
-.q8__trans__car {
+.q8__trans__car:hover {
   transition: all 0.5s;
   transform: scale(1.5);
 }
-.q8__trans__block {
+.q8__trans__block:hover {
   position: absolute;
   bottom: -100%;
   left: 0;
