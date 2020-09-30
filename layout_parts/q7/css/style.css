@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .clearfix::after {
   display: block;
   content: "";
   clear: both;
 }
+
 .text {
  float: left;
  width: 225px;
@@ -13,27 +15,34 @@
  margin-left: 50px;
  box-sizing: border-box;
 }
+
 .text:first-child {
   margin-left: 0;
 }
+
 .card {
   display: table;
 }
+
 .block {
   display: table-cell;
   vertical-align: middle;
   padding-left: 50px;
   width: 225px;
 }
+
 .cell {
   font-size: 16px;
 }
+
 .block:first-child {
   padding-left: 0;
 }
+
 .main {
   font-size: 0;
 }
+
 .item {
   display: inline-block;
   width: 225px;
@@ -42,28 +51,34 @@
   vertical-align: middle;
   box-sizing: border-box;
 }
+
 .item:first-child {
   margin-left: 0;
 }
+
 .home {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
+
 .grid {
   width: 225px;
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
 }
+
 .hero {
   font-size: 0;
 }
+
 .module {
   display: inline-block;
   width: 300px;
   vertical-align: top;
 }
+
 .module--box {
   display: inline-block;
   width: 100%;
@@ -72,7 +87,9 @@
   box-sizing: border-box;
   vertical-align: top;
 }
+
 .article {
   font-size: 16px;
 }
+
 /* 回答はここに書いてね */

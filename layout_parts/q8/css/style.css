@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .q8__trans {
   position: relative;
   margin:  0 auto;
@@ -8,18 +9,26 @@
   height: 333px;
   overflow: hidden;
 }
-.q8__trans__car:hover {
+
+.q8__trans:hover .q8__trans__car {
   transition: all 0.5s;
   transform: scale(1.5);
 }
-.q8__trans__block:hover {
+
+.q8__trans__block {
   position: absolute;
   bottom: -100%;
   left: 0;
   width: 100%;
   height: 100%;
   transition: all 0.5s;
+  background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0, .8));
 }
+
+.q8__trans:hover .q8__trans__block {
+  bottom: 0;
+}
+
 .q8__trans__block__text {
   position: absolute;
   bottom: 0;
@@ -29,5 +38,20 @@
   color: #ffffff;
   box-sizing: border-box;
   word-break: break-all;
+}
+
+.q8__box__anima {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: solid 10px #ecf1f2;
+  border-top-color: #00bcd4;
+  border-radius: 50%;
+  animation: 1.1s linear infinite rotation;
+}
+
+@keyframes rotation {
+  0% { transform: rotate(0);}
+  100% { transform: rotate(360deg);}
 }
 /* 回答はここに書いてね */
