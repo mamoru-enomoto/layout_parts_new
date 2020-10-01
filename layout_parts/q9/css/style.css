@@ -13,23 +13,21 @@
   border-radius: 30px;
 }
 
-.q9__balloon::before {
+.q9__balloon::before, .q9__balloon::after {
   content: "";
   position: absolute;
   width: 0;
   height: 0;
   border: 20px solid transparent;
+}
+
+.q9__balloon::before {
   bottom: -45px;
   left: 30px;
   border-top-color: #222;
 }
 
 .q9__balloon::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  border: 20px solid transparent;
   bottom: -38px;
   left: 30px;
   border-top-color: #fff;
